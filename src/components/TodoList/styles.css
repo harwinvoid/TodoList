@@ -1,0 +1,27 @@
+.todo {
+  width: 500px;
+  min-height: 300px;
+  padding: 15px;
+  border: 1px solid #efefef;
+  box-shadow: 1px 1px 5px rgba(3,38,141,0.15);
+  margin: 0 auto;
+}
+.todo--input {
+  width: 300px;
+  height: 40px;
+}
+.todo-item {
+  list-style: none;
+  font-size: 20px;
+  height: 40px;
+  text-align: left;
+}
+
+.todo-item span {
+  line-height: 40px;
+  margin-left: 15px;
+}
+.todo-item span.del {
+  text-decoration: line-through;
+  color: #a9a9a9;
+}
